@@ -29,7 +29,7 @@ h2{
 	font-size: 30px;
 	font-weight: lighter;
 	font-weight: 500;
-	background-color: #625757;
+	background-color:#625757 ;
 }
 
  a {
@@ -62,7 +62,8 @@ p{
 	box-shadow: 0px 20px 50px grey;
 	margin-left: auto;
     margin-right: auto;
-}
+    text-align: center;
+ }
 
 .formation{
 	background: white;
@@ -137,13 +138,15 @@ span.italic{
 }
 
 span.size{
-	font-size: 21px
+	font-size: 19px
 }
 
 #site{
 	background: #f08181;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 60px;
+	padding-right: 60px;
+	width:50px;
+    border-radius: 4px;
 }
