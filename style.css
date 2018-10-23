@@ -33,7 +33,7 @@ h2{
 }
 
  a {
-  text-decoration: underline;
+  text-decoration: none;
   color:#625757;
   font-weight: 600;
   font-family: Roboto, sans-serif;
@@ -112,13 +112,18 @@ border-style: double;
 }
 
 .list-without-bullet-point {
+
+ list-style-type: none;
+
+}
+.list-without-bullet-point {
  float:left;
  width:100%;
  padding:0;
  margin:0;
  list-style-type:none;
 }
-.list-without-bullet-point 
+.list-without-bullet-point li
 { 
 	display:inline;
 }  
@@ -141,12 +146,12 @@ span.size{
 	font-size: 19px
 }
 
-#site{
+.bouton{
 	background: #f08181;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 60px;
 	padding-right: 60px;
-	width:50px;
     border-radius: 4px;
+	width:auto;
 }
