@@ -39,6 +39,7 @@ h2{
   font-family: Roboto, sans-serif;
   font-size:16px;
 }
+
 a:hover{
 	color:brown;
 
@@ -48,19 +49,19 @@ p{
 	text-align: justify;
 }
 
-.page {
+.container {
 	width: 600px;
 	margin:50px auto;
 }
 
 @media (max-width: 760px){
-	.page{
+	.container{
 		width: 600px
 	}
 }
 
 @media (max-width: 500px){
-	.page{
+	.container{
 		width: 400px
 	}
 }
@@ -124,10 +125,9 @@ border-style: double;
 }
 
 .list-without-bullet-point {
-
- list-style-type: none;
-
+list-style-type: none;
 }
+
 .list-without-bullet-point {
  float:left;
  width:100%;
@@ -135,6 +135,7 @@ border-style: double;
  margin:0;
  list-style-type:none;
 }
+
 .list-without-bullet-point li
 { 
 	display:inline;
